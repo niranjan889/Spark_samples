@@ -1,2 +1,2 @@
 # spark_samples
-Contains pyspark examples.
+Contains PySpark examples.
