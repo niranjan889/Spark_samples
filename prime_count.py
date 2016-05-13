@@ -1,16 +1,11 @@
 '''
 Created on 2016-05-12
-
 @author: Niranjan
 '''
-import os
 from pyspark import SparkContext
-from pyspark.conf import SparkConf
 
-os.environ['JAVA_HOME']='/usr/lib/jvm/java-7-oracle'
 sc = SparkContext('local','pyspark')
 sc.setLogLevel("WARN")
-
 
 
 def isprime(n):
