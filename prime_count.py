@@ -7,7 +7,6 @@ from pyspark import SparkContext
 sc = SparkContext('local','pyspark')
 sc.setLogLevel("WARN")
 
-
 def isprime(n):
     """
     check if integer n is a prime
