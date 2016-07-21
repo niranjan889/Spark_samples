@@ -9,7 +9,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-
 """
 to sum up:
 broadcast variables and methods need to use broadcast variables need to be in the same area
@@ -257,5 +256,3 @@ if __name__=="__main__":
 os.listdir(os.getcwd())
 
 print 'h'
-
-
