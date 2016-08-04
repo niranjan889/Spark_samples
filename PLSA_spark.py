@@ -244,7 +244,6 @@ class PLSA:
 
 if __name__=="__main__":
     data = sc.textFile("092793.txt")
-    
     plsa = PLSA(data,sc,3,max_itr=1)
     files = [f for f in os.listdir('.') if os.path.isfile(f)]
     plsa.train()
