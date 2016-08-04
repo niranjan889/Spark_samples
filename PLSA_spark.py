@@ -242,9 +242,6 @@ class PLSA:
         f2.close()
         print 'done'
 
-# from PLSA import PLSA
-# from pyspark import SparkContext
-
 if __name__=="__main__":
     data = sc.textFile("092793.txt")
     
