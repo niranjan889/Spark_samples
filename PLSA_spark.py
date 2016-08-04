@@ -2,8 +2,9 @@
 # coding:utf8
 import sys
 import numpy as np
-from pyspark import SparkContext
 from pyspark import RDD
+from pyspark import SparkContext
+
 from numpy.random import RandomState
 
 reload(sys)
