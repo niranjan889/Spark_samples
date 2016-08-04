@@ -1,5 +1,6 @@
 
 # coding:utf8
+import numpy as np
 from pyspark import SparkContext
 from pyspark import RDD
 from numpy.random import RandomState
