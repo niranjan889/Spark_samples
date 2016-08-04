@@ -4,7 +4,6 @@ import sys
 import numpy as np
 from pyspark import RDD
 from pyspark import SparkContext
-
 from numpy.random import RandomState
 
 reload(sys)
