@@ -2,7 +2,6 @@
 # coding:utf8
 from pyspark import SparkContext
 from pyspark import RDD
-import numpy as np
 from numpy.random import RandomState
 
 import sys
