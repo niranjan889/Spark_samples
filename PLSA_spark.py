@@ -251,5 +251,3 @@ if __name__=="__main__":
     plsa.save('topic_word1','doc_topic1')
 
 os.listdir(os.getcwd())
-
-print 'h'
